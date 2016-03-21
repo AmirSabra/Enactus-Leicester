@@ -37,6 +37,7 @@ a:hover, a:focus {
 	color: #f1c40f;
 }
 .img-centered {
+	float:left;
 	margin: 0 auto;
 }
 ul, ol {
@@ -115,7 +116,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #d9e0e2;
-	font-size: 12px;
+	font-size: 13px;
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
@@ -186,12 +187,12 @@ header p {
 #services-section {
 	padding: 80px 0 100px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(153,19,0); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(122,15,0,1) 0%, rgba(153,19,0,1) 20%, rgba(153,19,0,1) 100%, rgba(122,15,0,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(122,15,0,1) 0%, rgba(153,19,0,1) 20%, rgba(153,19,0,1) 100%, rgba(122,15,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(122,15,0,1) 0%, rgba(153,19,0,1) 20%, rgba(153,19,0,1) 100%, rgba(122,15,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: white;
+	color: #5b777f;
 }
 #services-section h4 {
 	color: white;
@@ -345,7 +346,10 @@ ol.type li a:hover {
 	background-clip: border-box;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background: #f1c40f;
+	background: rgb(145,161,163); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .portfolio-modal .modal-content h2 {
 	margin-bottom: 15px;
@@ -497,9 +501,12 @@ img.img-circle.team-img {
 #testimonials-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: url(../img/testimonials-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
 	color: #5b777f;
 }
 #testimonial {
@@ -511,8 +518,9 @@ img.img-circle.team-img {
 	height: auto;
 }
 #testimonial .item p {
+	color: #fff;
 	font-weight: 400;
-	margin: 0 0 30px 0;
+	margin: 50px 0 30px 0;
 }
 /* Contact Section */
 #contact-section {
@@ -653,5 +661,17 @@ float:left;
 	
 #textcolor{
 color:white;
-font-size: 42px;
+font-size: 17px;
+}
+
+#textcolor2{
+color:white;
+}
+
+#closeM{
+float:right;
+}
+
+#textcolor3{
+color:#032E3A;
 }
